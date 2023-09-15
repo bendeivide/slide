@@ -12,7 +12,6 @@ csl: associacao-brasileira-de-normas-tecnicas-ipea.csl
 format: 
   revealjs:
     revealjs-plugins: ["pointer"]
-    notes:  
     navigation-mode: vertical # Slides horizontais e verticais
     theme: [dark, ben-slide.scss]
     transition: slide
@@ -44,6 +43,12 @@ editor: source
 ---
 
 # Encarte {background-image="EAR-rbasico-background-02.png"}
+
+<script>
+Reveal.initialize({
+plugins: [ RevealNotes ]
+});
+</script>
 
 <center>
 
